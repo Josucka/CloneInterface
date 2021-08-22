@@ -1,0 +1,160 @@
+/*zerando margim*/
+body, figure, img, header, nav, main, a, p, section, h1, h2, h3, footer{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+}
+figcaption{
+    display: none;
+}
+img{
+    max-width: 1200px;
+}
+body{
+    background-color: #141414;
+}
+
+*{
+    scrollbar-width: thin;
+    scrollbar-color: rgb(87, 86, 86);    
+}
+*::-webkit-scrollbar{
+    width: 6px;
+}
+*::-webkit-scrollbar-track{
+    background: #141414;
+}
+*::-webkit-scrollbar-thumb{
+    background-color: #fff;
+    border-radius: 20px;
+    border: 2px solid #141414;
+}
+.conteiner{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/*cabeçalho*/
+.cabecalho{
+    background-color: #141414;
+    padding: 16px 0;
+}
+.cabecalho h2{
+    text-align: center;
+    color: red;
+    font-family: 'Arial Black', Times;
+}
+.cabecalho .cabecalho_nav, .cabecalho_usuario a{
+    display: none;
+}
+
+/*capa da pagina*/
+.secao_destaque{
+    background: Url('/recurse/DrDolittle.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 30px 20px 22px;
+}
+.secao_destaque .imgDestaque{
+    display: none;
+}
+.secao_destaque .imgDestaque img{
+    width: 100%;
+}
+
+.secao_destaque .conteudoDestaque{
+    margin-top: 15%;
+    color: white;
+}
+.secao_destaque .conteudoDestaque h1{
+    margin: 5%;
+    width: 100%;
+    max-width: 150px;
+}
+.secao_destaque .conteudoDestaque p{
+    margin: 5%;
+    font-size: 0.8rem;    
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border:none;
+    color: white;
+    border-radius: 5px;
+    
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+.secao_filmes{
+    color: #e5e5e5;
+    padding: 0 20px;
+    overflow-x: hidden;
+    margin-top: 20px;
+}
+.secao_filmes .conteiner h2{
+    font-size: 1.6rem;
+}
+
+.carrocelFilmes{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    margin-top: 8px;
+}
+
+header nav a:hover{
+    color: #fff;
+}
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+.botao i{
+    margin-right: 8px;
+}
+.boxFilme{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.rodape{
+    padding: 0 20px;
+    margin-top: 30px;
+    color: #808080;
+}
+.rodape .midiasSociais ul{
+    display: flex;
+}
+.rodape .midiasSociais ul li{
+    margin-right: 8px;
+}
+.rodape .rodapeMenuNavegacao{
+    margin-right: 16px 0;
+}
+.rodape .rodapeMenuNavegacao ul{
+    margin-bottom: 10px;
+}
+.rodape .rodapeMenuNavegacao ul li a{
+    color: #808080;
+}
+.rodape .linkCodigo{
+    color: #808080;
+    border: 1px solid #808080;
+    padding: 9px 15px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
